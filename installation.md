@@ -47,7 +47,7 @@ After you successfully install it locally, maybe you want to deploy it too. thin
     ```
 The last important thing. You must set up the cronjob/schedular to your VPS/CPanel. You can set the cronjob command like this.
 ```sh
-* * * * * cd /var/www/battlehr && php artisan schedule:run >> /dev/null 2>&1 
+* * * * * cd /var/www/beetlehr && php artisan schedule:run >> /dev/null 2>&1 
 ```
 The Note is you must set the cronjob every minute to run the schedule:run artisan command. This will execute some features such as: 
 1. Force clock-out attendance
